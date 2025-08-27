@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#numBox {
+  margin-right: 8px;
+}
+
+.header-row .col {
+  background-color: lightgray;
+  color: black;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.header-row select {
+  background-color: lightgray;
+  color: black;
+  border: none;
+}
+
+#rowsBox .row .col {
+  padding: 6px;
+  margin: 0;
+  background: none;
+  border-radius: 0;
+  color: inherit;
+  word-wrap: break-word;
+}
+
+#getUsers {
+  background-color: lightgray;
+  color: black;
+  border: none;
+}
+#getUsers:hover {
+  background-color: darkgray;
+}

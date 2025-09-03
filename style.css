@@ -7,21 +7,18 @@ body {
 }
 
 .header-row .col {
-  background-color: lightgray !important;
-  color: black !important;
-  border-radius: 50px !important;
-  padding: 10px !important;
-  margin: 5px !important;
-  font-weight: bold !important;
-  text-align: center !important;
+  background-color: lightgray;
+  color: black;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 5px;
+  font-weight: bold;
 }
 
 .header-row select {
-  background-color: lightgray !important;
-  color: black !important;
-  border: none !important;
-  border-radius: 50px !important;
-  text-align: center !important;
+  background-color: lightgray;
+  color: black;
+  border: none;
 }
 
 #rowsBox .row .col {
@@ -34,12 +31,14 @@ body {
 }
 
 #getUsers {
-  background-color: lightgray !important;
-  color: black !important;
-  border: none !important;
-  border-radius: 50px !important;
+  background-color: lightgray;
+  color: black;
+  border: none;
 }
 #getUsers:hover {
-  background-color: darkgray !important;
+  background-color: darkgray;
 }
 
+.user-row {
+  cursor: pointer;
+}

@@ -38,3 +38,7 @@ body {
 #getUsers:hover {
   background-color: darkgray;
 }
+
+.user-row {
+  cursor: pointer;
+}
